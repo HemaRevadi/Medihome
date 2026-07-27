@@ -22,21 +22,21 @@ Medihome is a responsive, full-stack web application designed to help users quic
 
 ---
 ## Quick Start & Setup Prerequisites
-Make sure you have the following installed:
-Node.js (v14+)
-Python 3.x
-MongoDB running locally or a MongoDB Atlas connection string1. 
+-Make sure you have the following installed:
+-Node.js (v14+)
+-Python 3.x
+-MongoDB running locally or a MongoDB Atlas connection string1. 
 
 ## Backend Setup (Flask)Bash# Navigate to the server folder
-cd server
-python -m venv venv
-venv\Scripts\activate
-source venv/bin/activate
-pip install -r requirements.txt
-python app.py
+-cd server
+-python -m venv venv
+-venv\Scripts\activate
+-source venv/bin/activate
+-pip install -r requirements.txt
+-python app.py
 
 ## 2. Frontend Setup (React)Bash
-cd client
-npm install
-npm start
-The app will open automatically at http://localhost:3000
+-cd client
+-npm install
+-npm start
+-The app will open automatically at http://localhost:3000
